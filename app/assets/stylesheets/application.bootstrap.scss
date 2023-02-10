@@ -1,0 +1,73 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+// application.bootstrap.scss
+
+$primary-color: #0070f3;
+
+.blockly-container {
+  background-color: #f5f5f5;
+  padding: 2em;
+  border-radius: 5px;
+
+  h1 {
+    color: $primary-color;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+  }
+
+  p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+  }
+}
+
+.blockly-button {
+  background-color: $primary-color;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.2em;
+  padding: 0.7em 2em;
+  margin-bottom: 1.5em;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+    cursor: pointer;
+  }
+}
+
+.blockly-code-output {
+  background-color: #d9d9d9;
+  color: #333;
+  font-size: 1.2em;
+  padding: 1em;
+  height: 480px;
+  overflow-y: scroll;
+}
+// couleur principale pour les boutons et autres éléments
+$primary-color: #0070f3;
+
+// couleur de fond pour la sortie de code
+$code-output-background: #e0e0e0;
+
+.display-3 {
+  color: $primary-color;
+}
+
+.btn-primary {
+  background-color: $primary-color;
+}
+
+.card-header {
+  background-color: $primary-color;
+  color: #fff;
+}
+
+.card-body {
+  background-color: $code-output-background;
+  height: 50vh;
+}
+
+#blockly {
+  height: 55vh;
+}
