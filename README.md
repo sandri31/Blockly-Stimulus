@@ -1,5 +1,7 @@
 # README
 
+![Blockly](/app/assets/images/blockly.png)
+
 ## Description
 
 Ce projet est un exemple de projet utilisant le framework [Ruby on Rails](http://rubyonrails.org/) et la bibliothèque
