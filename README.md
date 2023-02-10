@@ -18,4 +18,4 @@ Le code généré peut être exécuté en cliquant sur le bouton "Exécuter le c
 
 ## Remerciements
 
-Ce projet est basé sur le projet venant de [Dean DeHart](https://github.com/Deanout).
+Grand merci à [Dean DeHart](https://github.com/Deanout) pour toute ces idées.
